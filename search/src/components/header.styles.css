@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2');
+.header-container{
+    /*height: 70px;*/
+    /* padding: 0px !important; */
+    
+    /* background-color: rgba(255, 255, 255, 0.103) !important; */
+    -webkit-box-shadow: -1px 6px 39px -25px rgba(0,0,0,0.57);
+    -moz-box-shadow:    -1px 6px 39px -25px rgba(0,0,0,0.57);
+    box-shadow:         -1px 6px 39px -25px rgba(0, 0, 0, 0.438);
+    background-color: rgb(255,255,255);
+    margin-bottom: 10%;
+}
+.navbar-brand span{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+    margin-left: 10px;
+}
+.navbar-brand img{
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 0px 12px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: -1px 0px 12px 0px rgba(0,0,0,0.31);
+    box-shadow: -1px 0px 12px 0px rgba(0,0,0,0.31);
+}
+.navbar-collapse{
+    background-color: rgb(255,255,255);
+    border-radius: 20px;
+}
+.navbar-nav .nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Baloo Da 2', cursive;
+}
+.dropdown-menu .active{
+    background-color: rgb(253,77,98) !important;
+}
+.dropdown-item{
+    font-family: 'Baloo Da 2', cursive;
+    transition: all 250ms ease-in-out;
+}
+.dropdown-item:hover {
+    background-color: rgb(253,77,98) !important;
+    color: rgb(255,255,255) !important;
+}
+.g{
+    color: rgb(186, 249, 91);
+    font-size: 30px;
+
+}
+.r{
+    color: red;
+    padding-left: 0%;
+    font-size: 30px;
+}
+ul{
+    display: inline;
+}
+li{
+    color: blue;
+    display: inline;
+}
+nav{
+    display: inline-flex;
+    margin-top: 20px;
+    
+
+}
+.space{
+    padding-left: 180px;
+    padding-right: 50px;
+}
