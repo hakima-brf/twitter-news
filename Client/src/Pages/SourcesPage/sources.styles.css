@@ -1,0 +1,19 @@
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pagination-container .pagination .page-item .page-link {
+    color: rgb(186, 249, 91);
+}
+.pagination-container .pagination .page-item .undefined {
+    color: rgb(255,255,255);
+    background-color: rgb(186, 249, 91);
+    outline: rgb(186, 249, 91);
+    border-color: rgb(187, 187, 187);
+}
+.pagination-container .pagination .page-item .active{
+    background-color: rgb(186, 249, 91) !important;
+    color: rgb(255,255,255) !important;
+}
